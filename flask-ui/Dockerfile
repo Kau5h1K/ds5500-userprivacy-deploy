@@ -10,7 +10,7 @@ COPY requirements.txt /home/user/app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # copy data
-COPY OPP-115 /home/user/app/OPP-115
+#COPY OPP-115 /home/user/app/OPP-115
 
 # copy code
 COPY src /home/user/app/src

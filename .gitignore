@@ -140,21 +140,6 @@ dmypy.json
 # VSCode
 .vscode
 
-# haystack files
-haystack/document_store/qa.db
-data
-**/mlruns/**
-src
-tutorials/cache
-tutorials/mlruns
-tutorials/model
-models
-saved_models
-*_build
-rest_api/file-upload/*
-**/feedback_squad_direct.json
-.DS_Store
-
 
 #dataset
 */data/*
@@ -172,10 +157,4 @@ rest_api/file-upload/*
 # Best params
 #src/config/best_params/*
 
-
-*/src/utils/confidence.pkl
-*/src/utils/segments.pkl
-*/src/utils/sitelists.pkl
-*/src/utils/trigger.pkl
-*/src/utils/url.pkl
 
